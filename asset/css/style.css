@@ -137,7 +137,7 @@
     background: #0c0f38;
 }
 .Services-continer{
-    padding: 85px 130px;
+    padding: 85px 100px;
     color: #FFFFFF;
     text-align: center;
 }
@@ -159,22 +159,20 @@
 .card{
     text-align: center;
     padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .card-design{
     border: 2px solid white;
-    width: 33%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
+    margin: 17px;
+    padding-bottom: 20px;
 }
 
-/* .card-design i img{
-    background-color: #fff;
-    
-    border-radius: 50%;
-    margin: 30px 0;
-} */
 
 .card-design i{
     background: #fff;
@@ -198,11 +196,14 @@
 
 .card-design p{
     padding: 20px;
-    width: 90%;
+    width: 93%;
     font-size: 16px;
 }
 
 .card-design:hover{
     background-color: #8308EB;
     transition-duration: 0.9s;
+}
+.card-design i:hover{
+    background-color: #DDDDDD;
 }
