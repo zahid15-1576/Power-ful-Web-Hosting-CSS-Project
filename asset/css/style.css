@@ -11,7 +11,7 @@
 }
 .data-web-continer{
     width: 100%;
-    padding: 40px 130px;
+    padding: 45px 130px;
 }
 .nav{
     padding-right: 50px;
@@ -41,10 +41,13 @@
     transition-duration: 0.3s;
 }
 .web-host-contain{
+    display: flex;
+    align-items: center;
     height: 100vh;
+    padding-top: 50px;
 }
 .web-host-info{
-    width: 50%;
+    width: 42%;
     color: #fff;
     padding-right: 20px;
     padding-top: 20px;
@@ -52,7 +55,7 @@
 }
 .web-host-info h1{
     font-size: 60px;
-    padding-top: 30px;
+    
 }
 .web-host-info h3{
     font-size: 40px;
@@ -71,7 +74,59 @@
 .btn1 a{
     background-color: #fff;
     color: black;
-    padding: 15px 20px;
+    padding: 15px 40px;
     width: 170px;
     text-decoration: none;
+}
+
+.btn1 a:hover{
+    background-color: black;
+    color: #fff;
+    transition-duration: 0.4s;
+}
+.web-host-img{
+    width: 42%;
+    padding-top: 30px;
+}
+.web-host-img img{
+    padding-top: 20px;
+}
+
+/* What’s New Section */
+
+.new-section{
+    padding: 85px 150px;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.new-contain h1{
+    color: #0C0F38;
+    font-size: 47px;
+    padding-bottom: 45px;
+}
+.new-contain p{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0;
+    font-size: 16px;
+    color: #0C0F38;
+}
+
+.btn2{
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.btn2 a{
+    background-color: black;
+    color: #fff;
+    padding: 15px 50px;
+    width: 170px;
+    text-decoration: none;
+}
+
+.btn2 a:hover{
+    background-color: #0C0F38;
+    color: #fff;
+    transition-duration: 0.4s;
 }
