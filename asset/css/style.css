@@ -227,3 +227,75 @@
     color: #fff;
     transition-duration: 0.4s;
 }
+
+/* Why you should choose section */
+
+.choose-section{
+    padding: 85px 100px 250px;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-design2{
+    width: 30.71%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
+    padding-bottom: 20px;
+    box-shadow: #ddd 0px 0px 10px;
+    transition: transform .4s;
+}
+
+.card-design2:hover{
+    transform: scale(1.1);
+}
+.card-design2 i{
+    display: inline-block;
+    padding-top: 19px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card-design2 h3{
+    font-size: 21px;
+}
+
+.card-design2 p{
+    padding: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.btn-size{
+    display: flex;
+    justify-content: center;
+}
+
+.btn4{
+    padding: 50px;
+    width: 33%;
+}
+
+.btn4 a{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 60px;
+    width: 170px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.btn4 a:hover{
+    background-color: #8308EB;
+    color: #fff;
+    transition-duration: 0.4s;
+}
