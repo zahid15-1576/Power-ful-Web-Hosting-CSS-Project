@@ -325,16 +325,49 @@
     flex-direction: column;
     align-items: center;
     background-color: #0c0f38;
-    margin-top: -300px;
-    width: 500px;
+    margin-top: -270px;
+    width: 540px;
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
     border-radius: 30px;
 }
 
 input{
-    width: 300px;
-    height: 50px;
-    margin: 25px 50px;
-    border-radius: 10px;
+    width: 450px;
+    height: 54px;
+    margin: 10px 50px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 18px;
+    color: #000000;
+}
+.message{
+    height: 100px;
+    font-size: 15px;
+}
+
+.send-botton{
+    width: 190px;
+    border-radius: 40px;
+    color: #EF4259;
+    font-size: 15px;
+}
+
+.Contact-contain .Services-contain h3{
+    font-size: 40px;
+    color: #fff;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -30px;
+}
+/* Templates section */
+.all-right{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #1e1e1e;
+}
+.Templates{
+    background-color: #fff;
 }
